@@ -47,6 +47,10 @@ Two formats equally strong → pick one, offer the other in a single closing sen
 Nothing dominates → **docx**. State the choice in one line with the reason ("This reads
 like a decision memo, so: Word doc"), then build — never ask the user to choose.
 
+Before building, confirm the environment can actually produce the format (a docx needs
+a docx library; xlsx and pptx likewise). Tooling missing → fall back to **html**, then
+**md**, and say so in one line — same capture, humbler container.
+
 ## Step 3 — Develop it in Darkroom
 
 Darkroom is this skill's design system: the restraint of black-and-white film. The
@@ -78,7 +82,11 @@ split a table row across pages, never leave the credit line alone on a near-empt
 ## Step 4 — Save it where it lives
 
 The user's `Capture` folder is the durable memory of where captures go — a folder
-persists across sessions; a conversation doesn't. In order:
+persists across sessions; a conversation doesn't.
+
+No persistent filesystem at all (claude.ai on the web — sandbox folders evaporate when
+the session ends) → deliver the file directly in the chat, skip the folder and the
+index, and don't mention either. Otherwise, in order:
 
 1. A local `Capture` folder exists (Desktop or a connected folder) → save there
    without asking. No location questions, no alternatives (the normal one-line chat

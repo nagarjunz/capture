@@ -23,6 +23,12 @@ And captures compound: every one appends a line to an `index.md` in your Capture
 
 ## Install
 
+**Claude (web or desktop)** — no technical setup:
+
+1. [**Download capture.skill**](https://raw.githubusercontent.com/nagarjunz/capture/main/capture.skill) (one click)
+2. In Claude, open **Settings → Capabilities → Skills** and upload the file
+3. Done. After any conversation, say *"capture this"*
+
 **Claude Code** — add this repo as a marketplace, then install:
 
 ```
@@ -30,7 +36,9 @@ And captures compound: every one appends a line to an `index.md` in your Capture
 /plugin install capture@capture-marketplace
 ```
 
-**Claude Desktop / Cowork** — download [`capture.skill`](./capture.skill) and open it, or copy `plugins/capture/skills/capture/` into your skills folder.
+**Cowork** — same `capture.skill`, uploaded the same way. Cowork reaches your real folders, so the Capture folder and its compounding index work at full strength.
+
+> On claude.ai web there's no permanent folder, so captures arrive as downloads in the chat — everything else works the same.
 
 ## Use
 

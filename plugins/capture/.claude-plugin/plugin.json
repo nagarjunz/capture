@@ -1,6 +1,6 @@
 {
   "name": "capture",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "/capture — turn any conversation into a polished takeaway. Auto-detects the best format (doc, deck, sheet, HTML, PDF, markdown), develops it in the Darkroom black-and-white theme, and keeps a compounding index of every capture.",
   "author": {
     "name": "Nag",
