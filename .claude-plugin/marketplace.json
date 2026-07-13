@@ -1,0 +1,14 @@
+{
+  "name": "capture-marketplace",
+  "owner": {
+    "name": "Nag",
+    "email": "nagarjunz@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "capture",
+      "source": "./plugins/capture",
+      "description": "/capture — turn any conversation into a polished takeaway. Auto-detects the best format (doc, deck, sheet, HTML, PDF, markdown) and styles it in a minimal black-and-white theme."
+    }
+  ]
+}
